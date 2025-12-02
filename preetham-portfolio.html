@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Preetham Kumar K K - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body {
+      background: #0b1120;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      padding: 2.5rem 1.5rem 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid #22c55e33;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      color: #bbf7d0;
+    }
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin: 2rem 0 0.75rem;
+      color: #a5b4fc;
+    }
+    p.lead {
+      max-width: 650px;
+      color: #cbd5f5;
+      margin-bottom: 1rem;
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .pill {
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background: #111827;
+      border: 1px solid #1f2937;
+      font-size: 0.8rem;
+      color: #e5e7eb;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto 3rem;
+      padding: 0 1.5rem 3rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background: #020617;
+      border-radius: 1rem;
+      border: 1px solid #1e293b;
+      overflow: hidden;
+      box-shadow: 0 18px 45px rgba(15,23,42,0.8);
+      display: flex;
+      flex-direction: column;
+    }
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      background: #020617;
+      padding: 0.75rem;
+    }
+    .card-body {
+      padding: 1rem 1.1rem 1.25rem;
+    }
+    .card-title {
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+      color: #e5e7eb;
+      font-weight: 600;
+    }
+    .card-meta {
+      font-size: 0.8rem;
+      color: #9ca3af;
+      margin-bottom: 0.4rem;
+    }
+    .card-text {
+      font-size: 0.9rem;
+      color: #d1d5db;
+    }
+    footer {
+      border-top: 1px solid #1f2937;
+      padding: 1.5rem;
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.85rem;
+    }
+    a {
+      color: #a5b4fc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .contact {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+    .contact span {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">Civil Engineering • Architectural Design</div>
+    <h1>Preetham Kumar K K</h1>
+    <p class="lead">
+      Civil Engineering student passionate about sustainable construction and architectural design.
+      Experienced in AutoCAD, SketchUp and ETABS, with hands-on work in eco‑friendly concrete
+      and residential space planning.
+    </p>
+    <div class="pill-row">
+      <div class="pill">AutoCAD</div>
+      <div class="pill">SketchUp</div>
+      <div class="pill">3D Visualization</div>
+      <div class="pill">Interior & Lighting Layouts</div>
+      <div class="pill">Residential Design</div>
+    </div>
+    <div class="contact">
+      <span>Based in India</span>
+      <span>Portfolio showcase</span>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Featured Drawings</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="/mnt/data/Screenshot (10).png" alt="Ground floor residential plan" />
+          <div class="card-body">
+            <div class="card-title">Compact Residential Ground Floor Plan</div>
+            <div class="card-meta">AutoCAD • Space planning</div>
+            <p class="card-text">
+              Parking, foyer, living, dining, kitchen and master bedroom organized efficiently
+              within a compact footprint, optimising circulation and natural light.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="/mnt/data/Screenshot (11).png" alt="Lighting layout with legend" />
+          <div class="card-body">
+            <div class="card-title">Comprehensive Lighting Layout</div>
+            <div class="card-meta">AutoCAD • Electrical & lighting design</div>
+            <p class="card-text">
+              Detailed ceiling lighting and cove lighting layout with legends for all fixture types,
+              designed to balance task, ambient and accent lighting across the residence.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="/mnt/data/Screenshot (12).png" alt="Switch and electrical point layout" />
+          <div class="card-body">
+            <div class="card-title">Switch & Electrical Point Plan</div>
+            <div class="card-meta">AutoCAD • Electrical coordination</div>
+            <p class="card-text">
+              Switch positions and mounting heights coordinated with furniture, doors and circulation
+              to ensure user comfort and ease of use throughout the home.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>About This Portfolio</h2>
+      <p>
+        This page highlights a selection from my academic and practice‑oriented work, including
+        floor planning, lighting layouts, and interior detailing. I enjoy transforming
+        conceptual ideas into clear, buildable drawings, and I am actively seeking opportunities
+        to collaborate on innovative civil engineering and architectural projects.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Preetham Kumar K K &middot; Designed and coded as a personal portfolio page.
+  </footer>
+</body>
+</html>
